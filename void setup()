@@ -1,0 +1,9 @@
+void setup()
+{
+	size(450,315);
+	b = loadImage("https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj057vP5dPlAhVBrp4KHSVsA0wQjRx6BAgBEAQ&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FHeart_(symbol)&psig=AOvVaw06bSFEyVZD7CXHkRM_rfpk&ust=1573068136737211"); //loads the image
+}
+void draw()
+{
+	image(b, 0, 0,450,315); //displays the image with top left corner at (0,0) width of 450 and height of 315
+}
